@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Swap Clear
+Name[tr]=Takas Alanı Temizleme
+Exec=pkexec /opt/swap-clear
+Icon=computerjanitor
+Terminal=true
+StartupNotify=false
+Categories=Utility;
