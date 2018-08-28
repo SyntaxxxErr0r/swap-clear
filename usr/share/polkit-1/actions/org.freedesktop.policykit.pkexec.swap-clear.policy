@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE policyconfig PUBLIC
+ "-//freedesktop//DTD PolicyKit Policy Configuration 1.0//EN"
+ "http://www.freedesktop.org/standards/PolicyKit/1/policyconfig.dtd">
+
+<policyconfig>
+
+  <action id="org.freedesktop.policykit.pkexec.swap-clear">
+    <description>Swap Clear</description>
+    <message>Authentication is required</message>
+    <message xml:lang="tr">Kimlik doğrulama gerekiyor</message>
+    <defaults>
+      <allow_any>any</allow_any>
+      <allow_inactive>any</allow_inactive>
+      <allow_active>any</allow_active>
+    </defaults>
+    <annotate key="org.freedesktop.policykit.exec.path">/opt/swap-clear</annotate>
+    <annotate key="org.freedesktop.policykit.exec.allow_gui">TRUE</annotate>
+  </action>
+
+</policyconfig>
