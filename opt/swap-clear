@@ -1,0 +1,5 @@
+#!/bin/bash
+swapoff -a
+sleep 60
+swapon -a
+exit 0
